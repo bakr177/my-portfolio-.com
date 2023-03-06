@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+   body{
+background: url(image/wallpaperflare.com_wallpaper\ \(4\).jpg);
+background-attachment: fixed;
+background-size: cover; 
+background-position: center;}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: darkslategray;
+}
+.logo{
+    text-decoration: none;
+    color: burlywood;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.nevig{
+    background-color: rgb(221, 191, 152);
+    border-radius: 50px;
+    width:350px;
+}
+.nevig a{
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.nevig a:hover{
+    color:rgb(0, 0, 0);
+}
+section{
+    padding: 150px 200px;
+}
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;   
+    background: url() no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    color: rgb(0, 0, 0);
+    font-size: 1.4em;
+    font-weight: 500;
+    
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: darkslategray;
+    font-size: 3em;
+    font-weight: 600
+    ;
+    margin-bottom: 10px;
+}
+.main h3{
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(10px);
+}
+.main-to{
+    color: burlywood;
+    background-color: darkslategray;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    box-shadow: 10px 5px 5px rgb(51, 50, 50);
+
+}
+.main-to:hover{
+    background-color: rgb(199, 199, 199);
+    transform: scale(1.1);
+}
+
+.sossh a{
+    color:darkslategray;
+    font-size: 1.7em;
+    padding-right: 20px;
+    margin-left: 12px;
+    
+}
+.sossh {
+    color:rgb(255, 255, 255);
+    width: 250px;
+    background-color: burlywood;
+    border-radius: 50px;
+    height: 40px;
+}
+.title{
+    width: 700px; 
+    display: flex;
+    justify-content: center;
+    color:
+    rgb(218, 193, 161);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    background-color: darkslategray;
+    border-radius: 50px;
+    margin-left: 120px;
+    box-shadow: 10px 6px 5px rgb(51, 50, 50);
+
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: darkslategray;
+    width: 21.25em;
+    box-shadow: 10px 5px 5px rgb(51, 50, 50);
+    border-radius: 30px;  
+    padding: 25px; 
+    margin: 15px;
+    transition: 0.7s ease;}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: rgb(20, 13, 13);
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+
+}
+.info h3{
+color: burlywood;
+font-size: 1.2em;
+font-weight: 700;
+margin: 10px;
+}
+
+.projects{
+    background-color: darkslategray;
+}
+.projects .contact{
+    margin-top: 30px;
+
+}
+.projects-card{
+    background-color: rgb(25, 43, 43);
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 40px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.projects-card:hover{
+    transform: scale(1.1);
+}
+.projects-card:hover .projects-image{
+  opacity:0.9 ;
+}
+.projects-image img{
+    width: 100%;
+}
+.projects-title{
+   justify-content: space-between;
+   display: flex;
+   text-transform: uppercase;
+   font-weight: 800;
+   margin-top: 10px;
+}
+.projects-info{
+padding: 1em;
+}
+.projects-category{
+    font-size: 0.8em;
+    color: burlywood;
+}
+.more-details{
+    text-decoration: none;
+    color:burlywood;
+}
+.more-details:hover{
+    color:  rgb(87, 126, 126);
+}
+.contact .icon{
+    font-size: 4.5em;
+    color: burlywood;
+}
+.contact .info h3{
+    color: darkslategray
+    ;font-weight: 900;
+    background-color: burlywood;
+    border-radius: 50px;
+    width: 100px;
+    margin-left: 93px;
+    margin-bottom: 20px;}
+
+.contact .info p{
+    font-size: 1.5em;
+    color:burlywood;
+}
+.footer{
+    background-color:  darkslategray;
+    color: rgb(0, 0, 0);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.titlee{
+    display: flex;
+    justify-content: center;
+    color: burlywood;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    width: 700px; 
+    background-color:darkslategray;
+    border-radius: 50px;
+    margin-right: 10px;
+    box-shadow: 10px 5px 5px rgb(51, 50, 50);
+}
+.spann{
+    color: rgb(24, 15, 15);
+    font-weight: 800;
+    font-size: 1.4em;
+    margin-left: 10px;
+}
+@media (max-width:1023px){
+header{
+    padding: 12px 20px;
+}
+}
+.sosh a{
+    color:burlywood;
+    font-size: 1.7em;
+    padding-right: 20px;
+    margin-left: 12px;
+}
+.sosh {
+    color: burlywood;
+    width: 250px;
+    background-color: darkslategray;
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px rgb(51, 50, 50);
+}
+.tittle{
+   width: 700px; 
+
+   display: flex;
+    justify-content: center;
+    color:
+    darkslategray;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    background-color: burlywood;
+    border-radius: 50px;
+    margin-left: 120px;
+    box-shadow: 10px 5px 5px rgb(51, 50, 50);
+
+}
+.contact .iconn{
+    font-size: 4.5em;
+    color: burlywood;
+    text-align: center;
+
+}
